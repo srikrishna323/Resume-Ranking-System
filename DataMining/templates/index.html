@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Ranking System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 Resume Ranking System</h1>
+
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <textarea name="job_description" placeholder="Paste Job Description..." required></textarea>
+
+        <input type="file" name="resumes" multiple required>
+
+        <button type="submit">Rank Resumes</button>
+    </form>
+</div>
+
+</body>
+</html>
